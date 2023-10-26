@@ -87,11 +87,11 @@ auth: $new_password
 transport:
   type: udp
 tls:
-  sni: bing.com
+  sni: speed.cloudflare.com
   insecure: true
 bandwidth:
-  up: 100 mbps
-  down: 100 mbps
+  up: 30 mbps
+  down: 80 mbps
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
